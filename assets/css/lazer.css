@@ -1,0 +1,170 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(254, 253, 225);
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+  height: 70px;
+
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+
+  overflow: hidden;
+  background-color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+.a:visited {
+  color: black;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #e63d3d;
+  line-height: 10;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.texto-titulo {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.topo-lazer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.quiz {
+  width: 20%;
+  border-radius: 30px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.quiz:hover {
+  background-color: #333;
+  color: white;
+}
+
+.nome-lugar {
+  font-size: 60px;
+}
+
+.passeios {
+  display: flex;
+  align-items: center;
+  justify-content: space around;
+}
+
+.left {
+  text-align: justify;
+  float: left;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 60%;
+  justify-content: space around;
+
+}
+
+.right {
+  float: right;
+  height: 60%;
+  width: 37%;
+  padding: 20px;
+}
+
+summary {
+  font-size: 25px;
+}
+
+a {
+  color: rgb(177, 68, 68);
+}
+
+a:hover {
+  color: #cfcfcf;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 30px;
+  gap: 50px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  line-height: 10;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+  margin-top: 0%;
+  padding: 0.5%;
+  background-color: #333;
+}

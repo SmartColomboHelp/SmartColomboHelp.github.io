@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-color: rgb(254, 253, 225);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* CLASSES */
+.hidden {
+  display: none;
+}
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  height: 385px;
+}
+
+/* ID */
+#quiz-button {
+  width: 150px;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#quiz-button:hover {
+  background-color: #333;
+  color: white;
+}
+
+
+/* HTML NATIVO */
+nav ul {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+  margin-top: 0%;
+  padding: 0.5%;
+  background-color: #333;
+}
+
+a:hover {
+  color: #cfcfcf;
+}
